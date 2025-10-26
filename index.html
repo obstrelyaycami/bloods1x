@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Muhammedali Dev</title>
+
+  <!-- 🌐 Иконка сайта -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968267.png">
+
+  <!-- 🧭 Шрифты и иконки -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <style>
+    :root {
+      --bg: #0e0f12;
+      --text: #f8f9fa;
+      --accent: #00b4d8;
+    }
+    body.light {
+      --bg: #f4f4f4;
+      --text: #111;
+      --accent: #2563eb;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+      transition: 0.4s ease;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(10px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+    }
+
+    header h1 {
+      color: var(--accent);
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    .theme-toggle {
+      border: none;
+      background: var(--accent);
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    section {
+      padding: 100px 10%;
+      min-height: 100vh;
+    }
+
+    #home {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    #home h2 {
+      font-size: 2.5rem;
+    }
+
+    #home p {
+      margin-top: 10px;
+      max-width: 600px;
+      opacity: 0.8;
+    }
+
+    #projects {
+      text-align: center;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    .project {
+      background: rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 20px;
+      transition: 0.3s ease;
+      cursor: pointer;
+    }
+
+    .project:hover {
+      transform: translateY(-6px);
+      background: rgba(255,255,255,0.15);
+    }
+
+    .project h3 {
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    #about {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    #about img {
+      width: 300px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+
+    #about .text {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid rgba(255,255,255,0.2);
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+
+    @media(max-width: 700px) {
+      header {
+        flex-direction: column;
+        gap: 10px;
+      }
+      #about {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Muhammedali.Dev</h1>
+    <nav>
+      <a href="#home">Главная</a>
+      <a href="#projects">Проекты</a>
+      <a href="#about">Обо мне</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <button class="theme-toggle" onclick="toggleTheme()">🌗</button>
+  </header>
+
+  <section id="home">
+    <h2>Привет! Я Muhammedali 👋</h2>
+    <p>Создаю современные сайты, интерфейсы и UI-анимации. Люблю делать проекты, которые вдохновляют. Добро пожаловать в моё портфолио.</p>
+  </section>
+
+  <section id="projects">
+    <h2>🚀 Что я могу создавать?</h2>
+    <div class="project-grid">
+      <div class="project">
+        <h3>🎮 Game Zone</h3>
+        <p>Современный сайт о видеоиграх с обзорами, трейлерами и рейтингами.</p>
+      </div>
+      <div class="project">
+        <h3>💼 Portfolio Pro</h3>
+        <p>Минималистичное портфолио с тёмной темой и плавными эффектами.</p>
+      </div>
+      <div class="project">
+        <h3>🌍 Travel Vibes</h3>
+        <p>Сайт о путешествиях с фотогалереей и отзывами туристов.</p>
+      </div>
+      <div class="project">
+        <h3>🧠 AI Tools Hub</h3>
+        <p>Коллекция полезных AI-инструментов для дизайнеров и разработчиков.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" alt="profile">
+    <div class="text">
+      <h2>Обо мне</h2>
+      <p>Я начинающий веб-разработчик, который любит чистый код, дизайн и технологии. Моя цель — создавать сайты, которые не просто работают, а вдохновляют пользователей. Работаю с HTML, CSS, JavaScript и Python.</p>
+    </div>
+  </section>
+
+  <section id="contact" style="text-align:center;">
+    <h2>📫 Связаться со мной</h2>
+    <p>Почта: <a href="mailto:muhammedali@example.com" style="color:var(--accent);text-decoration:none;">muhammednajimli2011@gmail.com</a></p>
+    <p>GitHub: <a href="#" style="color:var(--accent);text-decoration:none;">github.com/Muhammed1208</a></p>
+  </section>
+
+  <footer>
+    © 2025 Muhammedali | Создано с ❤️ в VS Code
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('light');
+    }
+
+    ScrollReveal().reveal('section', {
+      delay: 200,
+      distance: '40px',
+      origin: 'bottom',
+      duration: 800,
+      interval: 200
+    });
+  </script>
+</body>
+</html>
