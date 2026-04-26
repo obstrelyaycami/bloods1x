@@ -28,11 +28,19 @@ I don't wait for permission to build. I just open VS Code and start.
 
 ---
 
-## 📊 GitHub stats
+## 📊 Spamblok's GitHub Stats
 
-![Muhammadali's GitHub stats](https://github-readme-stats.vercel.app/api?username=obstrelyaycami&show_icons=true&theme=tokyonight)
+- ⭐️ Total Stars Earned: 0
+- 🟢 Total Commits (last year): 4
+- 💬 Total PRs: 0
+- 🔗 Total Issues: 0
+- 📄 Contributed to (last year): 0
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=obstrelyaycami&layout=compact&theme=tokyonight)
+---
+
+## Most Used Languages
+
+- ❤️ HTML 100.00%
 
 ---
 
