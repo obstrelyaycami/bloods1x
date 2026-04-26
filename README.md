@@ -30,17 +30,41 @@ I don't wait for permission to build. I just open VS Code and start.
 
 ## 📊 Spamblok's GitHub Stats
 
-- ⭐️ Total Stars Earned: 0
-- 🟢 Total Commits (last year): 4
-- 💬 Total PRs: 0
-- 🔗 Total Issues: 0
-- 📄 Contributed to (last year): 0
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Total%20Stars%20Earned-0-brightgreen?style=for-the-badge&logo=github">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Total%20Commits%20(last%20year)-4-blue?style=for-the-badge&logo=git">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Total%20PRs-0-orange?style=for-the-badge&logo=github">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Total%20Issues-0-red?style=for-the-badge&logo=github">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://img.shields.io/badge/Contributed%20to%20(last%20year)-0-lightgrey?style=for-the-badge&logo=github">
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## Most Used Languages
 
-- ❤️ HTML 100.00%
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/HTML-100%25-E34F26?style=for-the-badge&logo=html5">
+    </td>
+  </tr>
+</table>
 
 ---
 
