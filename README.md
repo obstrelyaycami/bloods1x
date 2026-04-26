@@ -28,14 +28,6 @@ I don't wait for permission to build. I just open VS Code and start.
 
 ---
 
-## 📌 Pinned projects
-
-- 🎮 [Game Zone](https://obstrelyaycami.github.io) — modern gaming site
-- 💼 [Portfolio Pro](https://obstrelyaycami.github.io) —  dark themed portfolio
-- ✈️ [Travel Vibes](https://obstrelyaycami.github.io) — travel gallery with reviews
-
----
-
 ## 📊 GitHub stats
 
 ![Muhammadali's GitHub stats](https://github-readme-stats.vercel.app/api?username=obstrelyaycami&show_icons=true&theme=tokyonight)
